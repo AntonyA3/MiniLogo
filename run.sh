@@ -1,0 +1,2 @@
+gcc -o exec  canvasobjects.c ./tools/movetool.c  canvaspointer.c mousestate.c rect.c ./ui/button.c ./ui/buttonbatch.c ./tools/recttool.c canvas.c fillbatch.c viewport.c  main.c -lGLEW -lGLU -lGL -lglfw -lGLU -lGL -lXrandr -lXxf86vm -lXi -lXinerama -lX11 -lrt -ldl -lm
+./exec
